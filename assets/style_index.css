@@ -1,0 +1,110 @@
+body{
+	padding-bottom: 30px;
+}
+div{
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	font-size: 14px;
+	font-family: sans-serif;
+	text-align: justify;
+	}
+img{
+	width: 80px;
+}
+h4{
+	font-weight: 350;
+	text-align: center;
+	margin: 5px;
+}
+button {
+    background: transparent;
+    cursor: pointer;
+	padding: 3px;
+	border: 1px solid #407F96;
+	border-radius: 5px;
+	outline: 0;	
+}
+a {
+	outline: 0;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	color: black;
+	border: 1px solid #407F96;
+	border-radius: 5px;
+	padding: 3px;
+	padding-left: 8px;
+	margin-bottom: 2px;
+}
+button:hover,  a:hover, #self:hover{
+	background: #96E3FF;
+}
+textarea {
+    display: block;
+    border: 1px solid #407F96;
+	border-radius: 5px;
+    width: 90%;
+    max-width: 450px;
+    height: 150px;
+    padding: 8px;
+    background: transparent;
+    font-size: 12px;
+    resize: vertical;
+    outline: 0;
+}
+#header, #self{
+	text-align: center;
+}
+.date{
+	font-size: 8px;
+}
+#self{
+	border: 1px solid #407F96;
+	border-radius: 5px;
+	width: 85px;
+	margin: 0 auto;
+}
+#write{
+	display: none;
+}
+#send{
+    font-size: 14px;
+	text-align: center;
+    display: block;
+    margin: 4px auto;
+	min-width: 130px;
+	margin-top: 20px;
+}
+#send:focus {
+    border-color: #407F96;
+}
+@media (max-width: 550px) {
+	div{
+		margin: 0px 10%;
+	}
+}
+@media (min-width: 551px) and (max-width: 810px) {
+	div{
+		margin: 0px 16%;
+	}
+}
+@media (min-width: 811px) and (max-width: 1000px) {
+	div {
+		margin: 0px 20%;
+		font-size: 14px;
+	}
+	textarea {
+		margin: 1px 3% 10px 3%;
+	}
+}
+@media (min-width: 1001px) {
+	div {
+		margin: 1px 27%;
+		font-size: 14px;
+	}
+	textarea {
+		margin: 1px 5% 1px 5%;
+	}
+}
