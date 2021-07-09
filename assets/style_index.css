@@ -57,9 +57,6 @@ textarea {
 #header, #self{
 	text-align: center;
 }
-.date{
-	font-size: 8px;
-}
 #self{
 	border: 1px solid #407F96;
 	border-radius: 5px;
