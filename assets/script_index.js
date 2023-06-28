@@ -7,16 +7,6 @@
 	
 	window.onload = function () {
 		whois();
-		document.getElementById('self').onclick = function(){
-			if (document.getElementById('write').style.display==='block'){
-				document.getElementById('write').style.display='none';
-				document.getElementById('list').style.display = 'block';
-			} else {
-				document.getElementById('list').style.display = 'none';
-				document.getElementById('write').style.display='block';
-			}
-		};	
-		document.getElementById('send').onclick = sendMessage;
 			
 	}	
 	function sendMessage() {
